@@ -6,6 +6,7 @@ const ayahsContainer = document.querySelector(".ayahs-container");
 searchBtn.addEventListener("click", (e) => {
   e.preventDefault();
   if(searchInput.value.trim()) {
+    ayahsContainer.innerHTML = "";
     const searchText = searchInput.value;
     getAyahs(searchInput.value);    
     searchInput.value = "";
