@@ -45,7 +45,7 @@ function appendAyahToPage(ayahObj) {
   ayahDescription.appendChild(surahName);
   const ayahNumber = document.createElement("div");
   ayahNumber.className = "ayah-number";
-  ayahNumber.innerText = ` رقم الآية: ${ayahObj["number"]}`;
+  ayahNumber.innerText = ` رقم الآية: ${ayahObj["numberInSurah"]}`;
   ayahDescription.appendChild(ayahNumber);
 
   ayahContainer.appendChild(ayahText);
