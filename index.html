@@ -6,8 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="./images/quran.png" type="icon">
   <title>Ayah Find</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body dir="rtl">
-  
+  <header class="header">
+    <div class="overlay"></div>
+    <h1>ابحث في القرآن الكريم</h1>
+  </header>
+  <main class="main">
+    <div class="container">
+      <form>
+        <div class="search">
+          <input type="text" class="search-input" placeholder="ابحث عن آية...">
+          <button class="search-btn" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </form>
+      <div class="results">
+        <div class="title">عدد الآيات : <span class="count">5</span> آية</div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
