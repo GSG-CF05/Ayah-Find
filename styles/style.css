@@ -23,6 +23,10 @@ body {
   background-color: var(--primary-color);
 }
 
+a {
+  text-decoration: none;
+}
+
 /* header styles */
 
 .header {
@@ -54,6 +58,10 @@ body {
   z-index: 1;
   color: var(--primary-color);
   border-bottom: 2px solid #d5d5d5;
+}
+
+.header h1 a {
+  color: var(--primary-color);
 }
 
 /* main section styles */
